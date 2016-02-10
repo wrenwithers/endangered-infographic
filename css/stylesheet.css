@@ -17,12 +17,16 @@ body {
     background-position: center;
     width: auto;
     height: auto;
-    margin-top: -600px;
+    margin-top: 1100px;
 }
 
 
 ul {
   list-style-type: none;
+}
+
+li {
+  position: absolute;
 }
 
 img{
@@ -46,11 +50,14 @@ img .caption {
 }
 
 li:first-child {
-  position: absolute;
   margin-left: 500px;
-  margin-top: 250px;
+  margin-top: -700px;
 }
 
 li:nth-child(2) {
-  margin: 600px 0px 0px 500px;
+  margin: -150px 0px 0px 700px;
+}
+
+li:nth-child(3) {
+  margin: -850px 0px 0px 1000px;
 }
